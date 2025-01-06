@@ -59,7 +59,7 @@ fetch('./cards.json')
 
 
 
-// DOM Elements
+
 const elements = {
     rowsContainer: document.getElementById('rowdata'),
     searchInput: document.getElementById('search'),
@@ -160,6 +160,7 @@ async function intializepage() {
         elements.rowsContainer.innerHTML = '<div class="text-center py-4">Loading...</div>';
 
         const response = await fetch('./rowdata.json');
+        
         if (!response.ok) {
             throw new Error('Failed to fetch data');
         }
@@ -286,7 +287,7 @@ new Chart("myChart", {
 
 const menuBtn = document.getElementById('menuBtn');
 const mobileMenu = document.getElementById('mobileMenu');
-const closeBtn = document.getElementById('closeBtn');  // Add this line
+const closeBtn = document.getElementById('closeBtn');  
 let isMenuOpen = false;
 
 menuBtn.addEventListener('click', () => {
