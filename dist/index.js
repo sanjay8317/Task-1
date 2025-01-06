@@ -7,7 +7,7 @@ fetch('./cards.json')
         const showInHtml = data.map((items) => {
             return `
         <div
-                    class="flex justify-between gap-3 border border-solid border-slate-300 rounded-lg px-10 py-8 w-auto lg:w-[31%] sm:w-[100%]">
+                    class="flex justify-between  border border-solid border-slate-300 rounded-lg px-6 py-6 w-auto lg:w-[430px] xl:w-[370px] sm:w-[100%]">
                     <!-- card1left -->
                     <div class="flex flex-col gap-2 ">
                         <div class="flex gap-2 items-center">
@@ -15,7 +15,7 @@ fetch('./cards.json')
                                 <img src="${items.image}" alt="">
                             </div>
                             <div>
-                                <h1>${items.name}</h1>
+                                <h1 class="text-xl">${items.name}</h1>
                             </div>
                         </div>
 
@@ -153,7 +153,7 @@ function handleFilter(status) {
     elements.filterMenu.classList.add("hidden");
 }
 
-// Initialize the application
+
 async function intializepage() {
     try {
         // Show loading state
@@ -171,7 +171,7 @@ async function intializepage() {
         // Initial render
         renderRows(state.filteredData);
 
-        // Set up event listeners
+  
         elements.searchInput.addEventListener('input', handleSearch);
         elements.sortButton.addEventListener('click', handleSort);
         elements.filterButton.addEventListener('click', (e) => {
@@ -212,7 +212,7 @@ intializepage();
 
 
 
-    //see all button(I'm using same image for multiple times)
+    //see all button(I'm using same image multiple times)
 
     let imagesVisible = false;
 
