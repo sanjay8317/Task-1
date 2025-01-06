@@ -1,0 +1,31 @@
+[
+    {
+        "image":"Screenshot 2025-01-03 111349.png",
+        "name":"Business Account",
+        "Days":"Last 30 days",
+        "amount":"£ 8.672,20",
+        "percentage":"16.0%",
+        "arrowimage":"Screenshot 2025-01-03 112326.png",
+        "LastPeriod":"VS. 7.120,14 Last Period"
+    },
+       {"image":"Screenshot 2025-01-03 111404.png",
+        "name":"Total Saving",
+        "Days":"Last 30 days",
+        "amount":"£ 3.765,20",
+        "percentage":"8.2%",
+        "arrowimage":"Screenshot 2025-01-03 112338.png",
+        "LastPeriod":"VS. 7.120,50 Last Period"} ,
+
+{
+        "image":"Screenshot 2025-01-03 111416.png",
+        "name":"Tax Reserve",
+        "Days":"Last 30 days",
+        "amount":"£ 14.672,20",
+        "percentage":"35.0%",
+        "arrowimage":"Screenshot 2025-01-03 112326.png",
+        "LastPeriod":"VS. 7.120,46 Last Period"
+}
+        
+
+    
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "image": "Screenshot 2025-01-03 123708.png",
+        "name": "Jonas",
+        "date": "2025-01-01",
+        "amount": "500",
+        "usd": "USD 50",
+        "status": "Success",
+        "transactionMode": "Card Transfer",
+        "transactionNumber": "**** 1234"
+    },
+    {
+        "image": "Screenshot 2025-01-03 123720.png",
+        "name": "Dexter",
+        "date": "2025-01-02",
+        "amount": "300",
+        "usd": "USD 30",
+        "status": "Pending",
+        "transactionMode": "Bank Transfer",
+        "transactionNumber": "**** 3214"
+    },
+
+    {
+        "image": "Screenshot 2025-01-03 173108.png",
+        "name": "Walt",
+        "date": "2025-01-31",
+        "amount": "200",
+        "usd": "USD 20",
+        "status": "Failed",
+        "transactionMode": "UPI Transfer",
+        "transactionNumber": "**** 4321"
+    }
+
+
+]
