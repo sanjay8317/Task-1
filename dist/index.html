@@ -16,12 +16,11 @@
     <div class="flex flex-row">
 
         <!-- left section -->
-        <div
-            class="hidden lg:flex bg-custom-gray w-[300px] flex-col gap-2 h-screen sticky top-0 left-0 overflow-hidden">
-          
+        <div class="lg:flex bg-custom-gray w-[300px] flex-col gap-2 h-screen sticky top-0 left-0 hidden">
+
             <div class="flex flex-col h-full justify-between">
-        
-                <div class="flex flex-col pl-2">
+
+                <div class="flex flex-col pl-2 pr-2">
                     <!-- Header -->
                     <div class="flex border-b-2 border-slate-200 items-center justify-between">
                         <div class="p-3 flex justify-between gap-2 items-center">
@@ -61,7 +60,7 @@
                                 <img src="credit-card.png" alt="" class="h-5 w-5">
                                 <p class="text-sm font-medium">Cards</p>
                             </div>
-                            <img src="down-arrow.png" alt="" class="h-4 w-5 pr-2">
+                            <img src="down-arrow.png" alt="" class="h-3 w-5 pr-2">
                         </div>
                     </div>
 
@@ -166,7 +165,7 @@
         <div class="flex flex-col gap-5 bg-white p-4 w-full">
 
             <!-- Navbar -->
-            <div class="sticky top-0 left-0 bg-white z-30 py-2">
+            <div class="sticky top-0 left-0 z-30 bg-white  py-2">
                 <div class="sticky top-0 left-0 bg-white z-30">
                     <div class="flex flex-col sm:flex-row justify-between items-center gap-4 lg:gap-20 ">
 
@@ -471,7 +470,7 @@
                         <div class="flex items-center gap-3 border-b-2 border-slate-200 pb-8 w-full">
                             <img src="Screenshot 2025-01-02 143729.png" alt="Income Icon" class="w-12 h-10">
                             <div class="flex flex-col gap-2">
-                                <p class="text-gray-700">Income</p>
+                                <p class="text-gray-700 font-semibold text-lg">Income</p>
                                 <div class="flex gap-2 items-center md:flex flex-wrap">
                                     <p class="text-2xl font-semibold">£9,378.20</p>
                                     <div class="text-green-500 flex items-center gap-1">
@@ -485,7 +484,7 @@
                         <div class="flex items-center  gap-3 w-full">
                             <img src="Screenshot 2025-01-02 143618.png" alt="Expense Icon" class="w-12 h-11">
                             <div class="flex flex-col gap-2">
-                                <p class="text-gray-700">Expense</p>
+                                <p class="text-gray-700 font-semibold text-lg">Expense</p>
                                 <div class="flex gap-2 items-center md:flex flex-wrap">
                                     <p class="text-2xl font-semibold">£5,788.21</p>
                                     <div class="text-red-500 flex items-center gap-1">
@@ -661,10 +660,15 @@
                         <div class="flex gap-2 justify-between items-center">
                             <div class="relative">
                                 <!-- Filter button -->
-                                <button id="filterButton"
-                                    class="bg-white px-7 py-1 border border-solid border-slate-300 rounded-lg text-custom-green">
-                                    Filter
-                                </button>
+                                <div id="filterButton"
+                                    class="bg-white px-7 py-1 border border-solid border-slate-300 rounded-lg text-custom-green flex justify-between gap-2 items-center cursor-pointer">
+                                    <div>
+                                        <img src="filter.png" alt="" class="w-4 h-4">
+                                    </div>
+                                    <div> <button>
+                                            Filter
+                                        </button></div>
+                                </div>
 
                                 <!-- Dropdown Menu -->
                                 <div id="filterMenu"
@@ -681,9 +685,17 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div><button id="sort"
-                                    class="bg-white px-7 py-1 border border-solid border-slate-300 rounded-lg text-custom-green">Sort</button>
+
+                            <div id="sort"
+                                class="bg-white px-7 py-1 border border-solid border-slate-300 rounded-lg text-custom-green flex gap-2 items-center cursor-pointer">
+                                <div>
+                                    <img src="sorting.png" alt="" class="w-5 h-5">
+                                </div>
+                                <div>
+                                    <button>Sort</button>
+                                </div>
                             </div>
+
                             <div><button
                                     class="bg-white px-2 py-1 border border-solid border-slate-300 rounded-lg text-custom-green">•••</button>
                             </div>
