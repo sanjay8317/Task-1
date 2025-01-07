@@ -128,8 +128,7 @@ function renderRows(dataToRender) {
 function handleSearch(event) {
     const query = event.target.value.toLowerCase();
     const searchedData = state.filteredData.filter(item => 
-        item.name.toLowerCase().includes(query) ||
-        item.transactionNumber.toLowerCase().includes(query)
+        item.name.toLowerCase().includes(query) 
     );
     renderRows(searchedData);
 }
